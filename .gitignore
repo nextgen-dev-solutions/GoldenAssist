@@ -31,3 +31,91 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Built application files
+*.apk
+*.aar
+
+# Built application directories
+/build/
+*/build/
+
+# Local configuration file (SDK paths, keystore, etc.)
+local.properties
+
+# Proguard files
+/proguard/
+/proguard-project.txt
+
+# IntelliJ IDEA/Android Studio specific files
+*.iml
+.idea/
+.gradle/
+.cache/
+*.log
+*.lock
+
+# Generated files
+gen/
+out/
+
+# Keystore files (for signing the app)
+*.keystore
+*.jks
+
+# Crashlytics and Fabric directories
+crashlytics-build.properties
+/fabric/
+
+# Google services configuration file
+google-services.json
+
+# Firebase Analytics and Performance files
+*.crash
+
+# Custom configuration files
+*.env
+*.local
+
+# User-specific files
+.DS_Store
+*.swo
+*.swp
+*.tmp
+
+# Python virtual environment (if used in combination with backend development)
+venv/
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# Ignore generated mapping files
+mapping.txt
+*.mapping
+
+# Miscellaneous
+*.bak
+*.temp
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+*.lnk
+
+# Linux specific files
+*~
+
+# Node.js specific files (if used with React Native or other hybrid frameworks)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
